@@ -40,7 +40,7 @@ public class cwh_26_arays {
         int [] marks = {70,80,90,100};
      //   System.out.println(marks.length);
         //displaying The Array [naive way]
-        System.out.println("printing using naive way  ");
+        System.out.println("printing using naive way ");
        System.out.println(marks[0]);
        System.out.println(marks[1]);
        System.out.println(marks[2]);
@@ -48,8 +48,8 @@ public class cwh_26_arays {
 
        //displaying The Array [for loop]
         System.out.println("printing using for loop ");
-        for (int i=0;i< marks.length;i++){
-            System.out.println(marks[i]);
+        for (int mark : marks) {
+            System.out.println(mark);
         }
 
         //Displaying the array i reverse roder  loop
